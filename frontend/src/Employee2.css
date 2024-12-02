@@ -1,0 +1,95 @@
+/* General container for centering content */
+.employee-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f2f5;
+    padding: 20px;
+  }
+  
+
+    /* Search bar styling */
+.employee-box .MuiTextField-root {
+    margin-bottom: 20px;
+  }
+  
+  .employee-box .employee-table {
+    margin-top: 20px;
+  }
+  
+  /* No results message styling */
+  .employee-table tr:nth-child(odd) {
+    background-color: transparent;
+  }
+  
+  /* Box for displaying employee details, list, or form */
+  .employee-box {
+    width: 60%;  /* Reduced width to make the layout less wide */
+    max-width: 1200px;  /* Ensures it doesn't go beyond a certain width */
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  /* Table styles */
+  .employee-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .employee-table th,
+  .employee-table td {
+    padding: 12px;
+    text-align: left;
+    font-size: 16px;
+  }
+  
+  .employee-table th {
+    background-color: #1976d2;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .employee-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+
+  
+  
+  .employee-table tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+  }
+  
+  /* Actions buttons in the table */
+  .action-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .action-buttons button {
+    margin-top: 4px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  /* Button styling for 'Add Employee' */
+  .add-employee-button {
+    margin-bottom: 20px;
+    background-color: #28a745;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-employee-button:hover {
+    background-color: #218838;
+  }
+  

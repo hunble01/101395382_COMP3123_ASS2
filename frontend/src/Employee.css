@@ -1,0 +1,30 @@
+/* General container for centering content */
+.employee-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9f9f9;
+  }
+  
+  /* Box for displaying employee details, list, or form */
+  .employee-box {
+    width: 350px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Spacing for buttons */
+  .employee-box .MuiButton-root {
+    margin-top: 16px;
+    width: 100%;
+  }
+  
+  /* Spacing for text fields */
+  .employee-box .MuiTextField-root {
+    margin-bottom: 16px;
+    width: 100%;
+  }
+  

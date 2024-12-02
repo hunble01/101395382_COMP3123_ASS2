@@ -1,0 +1,43 @@
+/* Center the container in the viewport */
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9f9f9; /* Optional background color */
+  }
+  
+  /* Style the inner content box */
+  .signup-box {
+    width: 300px;
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Add spacing for text fields and buttons */
+  .signup-box .MuiTextField-root {
+    margin-bottom: 16px;
+    width: 100%;
+  }
+  
+  .signup-box .MuiButton-root {
+    margin-top: 16px;
+    width: 100%;
+  }
+  
+  /* Style the link to login */
+  .login-link {
+    margin-top: 16px;
+    display: block;
+    color: #1976d2;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .login-link:hover {
+    text-decoration: underline;
+  }
+  

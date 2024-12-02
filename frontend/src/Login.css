@@ -1,0 +1,30 @@
+/* Center the container in the viewport */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9f9f9; /* Optional background color */
+  }
+  
+  /* Style the inner content box */
+  .login-box {
+    width: 300px;
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Add spacing for text fields and buttons */
+  .login-box .MuiTextField-root {
+    margin-bottom: 16px;
+    width: 100%;
+  }
+  
+  .login-box .MuiButton-root {
+    margin-top: 16px;
+    width: 100%;
+  }
+  
